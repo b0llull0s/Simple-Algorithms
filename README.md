@@ -1,6 +1,9 @@
 # Simple-Algorithms
 - Here there are some simple algorithms that may be useful to find analogies with real life situations.
 - They are simple patterns that seems to repeat often.
+>[!info] 
+>Constrains: Unbreakable rules about the problem or the way in which the problem must be solved.
+>
 # Problem-Solving Techniques
 - Always have a plan.
 - Restate the problem.
