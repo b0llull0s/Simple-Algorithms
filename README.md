@@ -15,6 +15,13 @@
 - Reduce the scope of problem.
 - Look for Analogies.
 - Experiment.
+# Analogy Cases
+- Identification number validation (The Lahn Formula).
+- Half of a square reductions.
+- Counting Down by Counting up.
+- Counting Down and up.
+
+
 # Acknowledgements
 - This are notes and exercises from the book "Thinking like a programmer" by V.Anton Spraul.
 - If you find this content iteresting buy his book for more and deepest content like this.
