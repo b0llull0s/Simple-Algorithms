@@ -4,8 +4,8 @@
 >Without being able to measure progress, it's difficult to formulate a strategy.
 
 >[!IMPORTANT] 
->Constrains: Unbreakable rules about the problem or the way in which the problem must be solved.
->Operations: Generic or parameterized actions that you can do to solved a problem.
+>- Constrains: Unbreakable rules about the problem or the way in which the problem must be solved.
+>- Operations: Generic or parameterized actions that you can do to solved a problem.
 >Analogy: An exploitable similarity betwen a solved problem and an unsolved problem. 
 
 # Problem-Solving Techniques
