@@ -10,5 +10,5 @@
 - Experiment.
 # Acknowledgements
 - This are notes and exercises from the book "Thinking like a programmer" by V.Anton Spraul.
-- If you find this content iteresting buy his book for more and deep content like this.
+- If you find this content iteresting buy his book for more and deepest content like this.
   
