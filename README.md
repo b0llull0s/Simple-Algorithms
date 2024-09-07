@@ -1,7 +1,7 @@
 # Simple-Algorithms
+>Without being able to measure progress, it's difficult to formulate a strategy.
 - Here there are some simple algorithms that may be useful to find analogies with real life situations.
 - They are simple patterns that seems to repeat often.
->Without being able to measure progress, it's difficult to formulate a strategy.
 
 >[!IMPORTANT] 
 >- Constrains: Unbreakable rules about the problem or the way in which the problem must be solved.
