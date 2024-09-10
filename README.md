@@ -29,5 +29,5 @@
 - [**Luhn Checksum Validation**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/luhn_checksum_validation.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
-- If you find this iteresting buy his book for more and deepest content like this.
+- If you find this interesting buy his book for a deepest cover over the topic.
   
