@@ -1,8 +1,6 @@
 # Simple-Algorithms
 >Without being able to measure progress, it's difficult to formulate a strategy.
 - Here there are some simple algorithms that may be useful to find analogies with real life situations.
-- They are simple patterns that seems to repeat often.
-
 >[!IMPORTANT] 
 >- **Constrains**: Unbreakable rules about the problem or the way in which the problem must be solved.
 >- **Operations**: Generic or parameterized actions that you can do to solved a problem.
@@ -18,7 +16,7 @@
 - Experiment.
 # Analogy Cases
 ## Sequential Patterns
-- **Counting Down by Counting Up.**
+- [**Counting Down by Counting Up.**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/counting_down_by_counting_up.cpp)
 - **One Line Hash.**
 - **Full Square Hash**
 - **Sideways Triangle(The Elevator)**
