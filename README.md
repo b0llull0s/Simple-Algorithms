@@ -24,7 +24,7 @@
 - **Sideways Triangle(The Elevator)**
 ## Convergence
 - **The Tug of War**
-## Handling Exceptions and Validation
+## Handling Exceptions
 - **Leap Years**
 ## Identification number validation
 - **Luhn Checksum Validation**
