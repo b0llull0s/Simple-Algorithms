@@ -8,20 +8,18 @@
 >- **Operations**: Generic or parameterized actions that you can do to solved a problem.
 >- **Analogy**: An exploitable similarity betwen a solved problem and an unsolved problem. 
 
-# Problem-Solving Techniques
+# Problem-Solving Techniques (in any order)
 - Always have a plan.
 - Restate the problem.
 - Divide the problem.
-- Reduce the scope of problem.
+- Reduce the scope of the problem.
 - Look for Analogies.
 - Experiment.
 # Analogy Cases
+- Cutting in half.
+- Counting and tracking.
+- Handling Exceptions.
 - Identification number validation (The Lahn Formula).
-- Half of a square reductions.
-- Counting Down by Counting up.
-- Counting Down and up.
-
-
 # Acknowledgements
 - This are notes and exercises from the book "Thinking like a programmer" by V.Anton Spraul.
 - If you find this content iteresting buy his book for more and deepest content like this.
