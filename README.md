@@ -14,13 +14,21 @@
 - Divide the problem.
 - Reduce the scope of the problem.
 - Look for Analogies.
+- Reflect the problem.
 - Experiment.
 # Analogy Cases
-- Cutting in half.
-- Counting and tracking.
-- Handling Exceptions.
-- Identification number validation (The Lahn Formula).
+## Sequential Patterns
+- **Counting Down by Counting Up.**
+- **One Line Hash.**
+- **Full Square Hash**
+- **Sideways Triangle(The Elevator)**
+## Convergence
+- **The Tug of War**
+## Handling Exceptions and Validation
+- **Leap Years**
+## Identification number validation
+- **Luhn Checksum Validation**
 # Acknowledgements
-- This are notes and exercises from the book "Thinking like a programmer" by V.Anton Spraul.
-- If you find this content iteresting buy his book for more and deepest content like this.
+- Some of the code are exercises from the book "Thinking like a programmer" by V.Anton Spraul.
+- If you find this iteresting buy his book for more and deepest content like this.
   
