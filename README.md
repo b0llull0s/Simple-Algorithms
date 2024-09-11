@@ -22,6 +22,8 @@
 - [**Half Square hash**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/half_square_hash.cpp)
 - [**Sideways Triangle(The Elevator)**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/the_elevator_sideways_triangle.cpp)
 - [**Sum of Consecutive Integers**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/sum_consecutive_integers.cpp)
+## String Manipulation
+- [**Palidromes**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/palindromes.cpp)
 ## Convergence
 - [**The Tug of War**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/the_tug_of_war.cpp)
 ## Handling Exceptions
