@@ -28,6 +28,8 @@
 - [**Leap Years**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/leap_years.cpp)
 ## Identification number validation
 - [**Luhn Checksum Validation**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/luhn_checksum_validation.cpp)
+## Game Logic
+- [**Rock, Paper or Scissor**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/rock_paper_scissor.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
 - If you find this interesting buy his book for a deepest cover over the topic.
