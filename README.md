@@ -25,19 +25,23 @@
 - [**Fibonacci**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/fibonacci.cpp) 
 ## String Manipulation
 - [**Palidromes**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/palindromes.cpp)
+- [**Decode Message**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/decode_message.cpp)
 ## Convergence
 - [**The Tug of War**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/the_tug_of_war.cpp)
 ## Handling Exceptions
 - [**Leap Years**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/leap_years.cpp)
+- [**Positive or Negative**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/positive_or_negative.cpp)
 ## Identification number validation
 - [**Luhn Checksum Validation**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/luhn_checksum_validation.cpp)
+- [**Simple Checksum Validation**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/simple_checksum_validation.cpp)
 ## Game Logic
 - [**Rock, Paper or Scissor**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/rock_paper_scissor.cpp)
 ## Data Conversion
 - [**Temperature Convertor**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/temp_convertor.cpp)
+- [**Convert a Number to Int**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/convert_a_number_to_int.cpp)
+- [**Convert Char Digit to Int**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/convert_char_digit_to_int.cpp)
 ## Recursion
 - [**Recursive Factorial Function**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/recursive_factorial.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
 - If you find this interesting buy his book for a deepest cover over the topic.
-  
