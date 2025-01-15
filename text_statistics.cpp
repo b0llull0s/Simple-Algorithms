@@ -1,6 +1,6 @@
 /*
 Exercise 2-9:
-Write a program that reads a line of text, counting the number of words, identifying the length of the longest word, the greatest number of vowels in a word, and includes input sanitation.
+Write a program that reads a line of text, counting the number of words, identifying the length of the longest word, the greatest number of vowels in a word, and includes additional statistics such as average word length, number of unique words, word frequency, and number of symbols and special characters.
 
 1. Identify the analogies:
     - palindromes.cpp: Demonstrates string manipulation and normalization.
@@ -9,31 +9,23 @@ Write a program that reads a line of text, counting the number of words, identif
     
 2. Determine the operations:
     - Read a line of text.
-    - Sanitize input by removing non-alphanumeric characters.
     - Count the number of words.
     - Identify the length of the longest word.
     - Identify the greatest number of vowels in a word.
+    - Calculate the average word length.
+    - Count the number of unique words.
+    - Determine the frequency of each word.
+    - Count the number of symbols and special characters.
 */
-
 #include <iostream>
 #include <string>
 #include <sstream>
 #include <vector>
+#include <unordered_map>
 #include <algorithm>
 #include <cctype>
 
 using namespace std;
-
-// Function to sanitize input by removing non-alphanumeric characters
-string sanitizeInput(const string &input) {
-    string sanitized;
-    for (char ch : input) {
-        if (isalnum(ch) || isspace(ch)) {
-            sanitized += ch;
-        }
-    }
-    return sanitized;
-}
 
 // Function to count the number of vowels in a word
 int countVowels(const string &word) {
@@ -47,17 +39,35 @@ int countVowels(const string &word) {
     return count;
 }
 
+// Function to count symbols and special characters
+int countSymbols(const string &text) {
+    int count = 0;
+    for (char ch : text) {
+        if (!isalnum(ch) && !isspace(ch)) {
+            ++count;
+        }
+    }
+    return count;
+}
+
 // Function to compute text statistics
 void computeTextStatistics(const string &text) {
-    string sanitizedText = sanitizeInput(text);
-    istringstream stream(sanitizedText);
+    istringstream stream(text);
     string word;
     vector<string> words;
+    unordered_map<string, int> wordFrequency;
+    int totalWordLength = 0;
     int longestWordLength = 0;
     int maxVowelsInWord = 0;
+    int symbolsCount = countSymbols(text);
     
     while (stream >> word) {
+        // Remove punctuation from the word
+        word.erase(remove_if(word.begin(), word.end(), [](char ch) { return ispunct(ch); }), word.end());
+        
         words.push_back(word);
+        wordFrequency[word]++;
+        totalWordLength += word.length();
         if (word.length() > longestWordLength) {
             longestWordLength = word.length();
         }
@@ -67,9 +77,18 @@ void computeTextStatistics(const string &text) {
         }
     }
 
+    double averageWordLength = words.empty() ? 0 : static_cast<double>(totalWordLength) / words.size();
+
     cout << "Number of words: " << words.size() << "\n";
     cout << "Length of the longest word: " << longestWordLength << "\n";
     cout << "Greatest number of vowels in a word: " << maxVowelsInWord << "\n";
+    cout << "Average word length: " << averageWordLength << "\n";
+    cout << "Number of unique words: " << wordFrequency.size() << "\n";
+    cout << "Number of symbols and special characters: " << symbolsCount << "\n";
+    cout << "Word frequencies:\n";
+    for (const auto &pair : wordFrequency) {
+        cout << pair.first << ": " << pair.second << "\n";
+    }
 }
 
 int main() {
