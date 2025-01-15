@@ -2,7 +2,19 @@
 Exercise 2-8:
 Write a program that convert from any number base-16 or less to amy other number base:
 
+1. Identify the analogies:
+    - convert_a_number_to_int.cpp: Demonstrates converting a character sequence to an integer.
+    - decode_message.cpp: Shows handling of character sequences and their conversion to numbers.
+    - convert_char_digit_to_int.cpp: Simple conversion of character digits to integers.
+    - decimal_binary_hex_converter.cpp: Provides methods for converting between decimal, binary, and hexadecimal.
 
+2. Determine the operations:
+    - Any Base to Decimal Conversion:
+        Multiply each digit by the base raised to the power of its position.
+        Sum the results.
+    - Decimal to Any Base Conversion:
+        Continuously divide the decimal number by the target base.
+        Collect the remainders in reverse order.
 */
 #include <iostream>
 #include <string>
