@@ -23,7 +23,9 @@
 - [**Sideways Triangle(The Elevator)**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/the_elevator_sideways_triangle.cpp)
 - [**Sum of Consecutive Integers**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/sum_consecutive_integers.cpp)
 - [**Fibonacci**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/fibonacci.cpp)
-- [**Star Pattern**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/star_pattern.cpp) 
+- [**Star Pattern**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/star_pattern.cpp)
+- [**Diamond Shape**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/diamond_shape.cpp)
+- [**Inverted Triangle**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/inverted_triangle.cpp)
 ## String Manipulation
 - [**Palidromes**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/palindromes.cpp)
 - [**Decode Message**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/decode_message.cpp)
