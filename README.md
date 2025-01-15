@@ -44,7 +44,7 @@
 - [**Temperature Convertor**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/temp_convertor.cpp)
 - [**Convert a Number to Int**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/convert_a_number_to_int.cpp)
 - [**Convert Char Digit to Int**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/convert_char_digit_to_int.cpp)
-- [**Binary/Decimal/Hex Convertor**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/decimal_binary_converter.cpp)
+- [**Binary/Decimal/Hex Convertor**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/decimal_binary_hex_converter.cpp)
 ## Recursion
 - [**Recursive Factorial Function**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/recursive_factorial.cpp)
 # Acknowledgements
