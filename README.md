@@ -29,6 +29,7 @@
 ## String Manipulation
 - [**Palidromes**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/palindromes.cpp)
 - [**Decode Message**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/decode_message.cpp)
+- [**Text Statistics**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/text_statistics.cpp)
 ## Convergence
 - [**The Tug of War**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/the_tug_of_war.cpp)
 ## Handling Exceptions
