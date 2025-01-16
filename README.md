@@ -55,6 +55,7 @@
 - [**Sales Agent Sorter**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SalesAgentSorter.cpp)
 - [**Array Sorted Checker**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/ArraySortedChecker.cpp)
 - [**Substitution Cipher**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SubstitutionCipher.cpp)
+- [**Substitution Cipher Random**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SubstitutionCipher_Random.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
 - If you find this interesting buy his book for a deepest cover over the topic.
