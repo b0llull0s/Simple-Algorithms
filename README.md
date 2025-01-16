@@ -52,6 +52,7 @@
 ## Array Operations
 - [**Finding the Mode**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_mode.cpp)
 - [**Student Sorter**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/student_sorter.cpp)
+- [**Sales Agent Sorter**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SalesAgentSorter.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
 - If you find this interesting buy his book for a deepest cover over the topic.
