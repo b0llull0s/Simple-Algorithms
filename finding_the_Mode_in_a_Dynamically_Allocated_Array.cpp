@@ -24,10 +24,10 @@ Rewrite the code to remove that limitation using a dynamically allocated array:
         Deallocate memory:
             Use the delete[] operator to free the dynamically allocated memory.
 */
-
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <sstream>
 #include <algorithm>
 
 int findMode(const int* numbers, int size) {
@@ -49,16 +49,27 @@ int findMode(const int* numbers, int size) {
 }
 
 int main() {
-    int n, num;
+    int n;
 
     std::cout << "Enter the number of elements: ";
     std::cin >> n;
+    std::cin.ignore();  // Ignore the newline character after the number of elements
 
     int* numbers = new int[n]; // Dynamically allocate memory for the array
 
     std::cout << "Enter the elements: ";
+    std::string input;
+    std::getline(std::cin, input);
+
+    // Replace commas with spaces
+    std::replace(input.begin(), input.end(), ',', ' ');
+
+    std::istringstream iss(input);
+    std::string token;
+
     for (int i = 0; i < n; ++i) {
-        std::cin >> numbers[i];
+        iss >> token;
+        numbers[i] = std::stoi(token);
     }
 
     int mode = findMode(numbers, n);
