@@ -6,40 +6,28 @@ The following functions are to be implemented:
     - averageRecord: This function takes a pointer to a collection of student records and returns the simple average of student grades in the collection as a double.
 The collection can be of any size. The addRecord operation is expected to be called frequently, so it must be implemented efficiently. 
 */
+#include <iostream>
 
 struct listNode {
     int studentNum;
     int grade;
-    listNode * next;
+    listNode *next;
 };
-typedef listNode * studentCollection;
+typedef listNode *studentCollection;
 
-studentCollection sc;
-listNode * node1 = new listNode;
-node1->studentNum = 1001; node1->grade = 78;
-listNode * node2 = new listNode;
-node2->studentNum = 1012; node2->grade = 93;
-listNode * node3 = new listNode;
-node3->studentNum = 1076; node3->grade = 85;
-sc = node1;
-node1->next = node2;
-node2->next = node3;
-node3->next = NULL;
-node1 = node2 = node3 = NULL;
-
-void addRecord(studentCollection& sc, int stuNum, int gr) {
-    listNode * newNode = new listNode;
+void addRecord(studentCollection &sc, int stuNum, int gr) {
+    listNode *newNode = new listNode;
     newNode->studentNum = stuNum;
     newNode->grade = gr;
     newNode->next = sc;
     sc = newNode;
 }
-// List traversal
+
 double averageRecord(studentCollection sc) {
     if (sc == NULL) return 0;
     int count = 0;
     double sum = 0;
-    listNode * loopPtr = sc;
+    listNode *loopPtr = sc;
     while (loopPtr != NULL) {
         sum += loopPtr->grade;
         count++;
@@ -47,4 +35,17 @@ double averageRecord(studentCollection sc) {
     }
     double average = sum / count;
     return average;
+}
+
+int main() {
+    studentCollection sc = NULL;
+
+    addRecord(sc, 1001, 78);
+    addRecord(sc, 1012, 93);
+    addRecord(sc, 1076, 85);
+
+    double avg = averageRecord(sc);
+    std::cout << "Average grade: " << avg << std::endl;
+
+    return 0;
 }
