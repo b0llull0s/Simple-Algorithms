@@ -67,8 +67,6 @@ int length(arrayString s) {
     return count;
 }
 
-void Concatenate(arrayString& s1, arrayString s2) {   
-}
 void ConcatenateTester() {
     arrayString a = new char[5];
     a[0] = 't'; a[1] = 'e'; a[2] = 's'; a[3] = 't'; a[4] = '0';
