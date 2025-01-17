@@ -101,4 +101,4 @@ arrayString c = new char[1];
 c[0] = 0;
 Concatenate(c, a);
 cout << a << "\n" << c << "\n";
-cout << (void *) << a << "\n" << (void *) c << "\n";
+cout << (void *) a << "\n" << (void *) c << "\n";
