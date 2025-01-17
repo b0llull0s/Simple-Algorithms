@@ -62,6 +62,7 @@
 ## Pointer and Memory Management
 - [**Variable-length String Manipulation**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/variable_length_string_manipulation.cpp)
 - [**Tracking An Unknow Quantity Of Student Records**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/tracking_an_unknow_quantity_of_student_records.cpp)
+- [**Finding the Mode in a Dynamically Allocated Array**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/finding_the_Mode_in_a_Dynamically_Allocated_Array.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
 - If you find this interesting buy his book for a deepest cover over the topic.
