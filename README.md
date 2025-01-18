@@ -50,13 +50,13 @@
 ## Recursion
 - [**Recursive Factorial Function**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/recursive_factorial.cpp)
 ## Array Operations
-- [**Finding the Mode**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_mode.cpp)
+- [**Finding the Mode With Histogram**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_mode_with_histogram.cpp)
 - [**Student Sorter**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/student_sorter.cpp)
 - [**Sales Agent Sorter**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SalesAgentSorter.cpp)
 - [**Array Sorted Checker**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/ArraySortedChecker.cpp)
 - [**Substitution Cipher**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SubstitutionCipher.cpp)
 - [**Substitution Cipher Random**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/SubstitutionCipher_Random.cpp)
-- [**Find Mode With Arrays**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_mode_with_arrays.cpp)
+- [**Find Mode With Unordered Map**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_mode_with_unordered_map.cpp)
 - [**Find Grade Quartiles**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_grade_quartiles.cpp)
 - [**Find Highest Sales Filtered**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_highest_sales_filtered.cpp)
 ## Pointer and Memory Management
