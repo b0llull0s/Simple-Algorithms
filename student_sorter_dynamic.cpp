@@ -47,7 +47,14 @@ vector<int> findQuartiles(const vector<int>& grades) {
     vector<int> quartiles(3);
 
     quartiles[0] = sortedGrades[sortedGrades.size() / 4];
-    quartiles[1] = sortedGrades[sortedGrades.size() / 2];
+    
+    int midIndex = sortedGrades.size() / 2;
+    if (sortedGrades.size() % 2 == 0) {
+        quartiles[1] = (sortedGrades[midIndex - 1] + sortedGrades[midIndex]) / 2.0;
+    } else {
+        quartiles[1] = sortedGrades[midIndex];
+    }
+
     quartiles[2] = sortedGrades[3 * sortedGrades.size() / 4];
 
     return quartiles;
