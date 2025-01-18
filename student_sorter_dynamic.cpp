@@ -1,8 +1,28 @@
 /*
 Exercise 4-1:
-Rewrite the code to remove the limitation using a dynamically allocated array
-*/
+Rewrite the code to remove the limitation using a dynamically allocated array:
 
+    1. Identify the Analogies:
+        - find_grade_quartiles.cpp: This program processes an array of student objects and determines the grade quartiles.
+        - student_sorter.cpp: This program sorts an array of student structures by grade or student ID.
+        - SalesAgentSorter.cpp: This program involves array processing and sorting to find averages and medians for sales agents.
+        - finding_the_Mode_in_a_Dynamically_Allocated_Array.cpp: This program demonstrates dynamic memory allocation and finding the mode of a dataset.
+
+    2. Determine the Operations:
+        - Read and Parse Input Data:
+            Define a student structure with grade, studentID, and name fields.
+            Dynamically allocate an array of student structures and initialize it with sample data.
+        - Sort and Manage Data
+            Implement a function printStudents to print the array of students.
+            Use std::sort to sort the students by grade and print the sorted array.
+            Use std::sort to sort the students by student ID and print the sorted array.
+            Implement a function findQuartiles to calculate and return the 1st, 2nd (median), and 3rd quartiles of the grades.
+        - Output the Results
+            Print the original array of students.
+            Print the array of students sorted by grade.
+            Print the array of students sorted by student ID.
+            Print the calculated grade quartiles.
+*/
 #include <iostream>
 #include <algorithm>
 #include <string>
