@@ -59,6 +59,7 @@
 - [**Find Mode With Unordered Map**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_mode_with_unordered_map.cpp)
 - [**Find Grade Quartiles**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_grade_quartiles.cpp)
 - [**Find Highest Sales Filtered**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/find_highest_sales_filtered.cpp)
+- [**Student Sorter With Dynamic Array**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/student_sorter_dynamic.cpp)
 ## Pointer and Memory Management
 - [**Variable-length String Manipulation**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/variable_length_string_manipulation.cpp)
 - [**Tracking An Unknow Quantity Of Student Records**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/tracking_an_unknow_quantity_of_student_records.cpp)
