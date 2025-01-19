@@ -8,6 +8,11 @@ Exercise 4-7:
 Following up on the previous exercise, implement the concatenate functions.
 Note that if we make a call conatenate(s1, s2), where both parameters are pointers to the first node of their respective linked lists, the functions should create a copy of each of the nodes in s2 and append them to the end of s1.
 That is, the function should not simply point the next field of the last node in s1's list to the first node of s2's list.
+
+Exercise 4-8:
+Add a function to the linked-list string implementation called removeChars to remove a section of characters from a string based on the position and length.
+For example, removeChars(s1, 5, 3) would remove the three characters starting at the fifth character in the string.
+Make sure the removed nodes are properly deallocated.
 */
 #include <iostream>
 using namespace std;
@@ -74,6 +79,38 @@ public:
         }
     }
 
+    // Remove characters function
+    void removeChars(int position, int length) {
+        if (position < 0 || position >= size || length <= 0) {
+            throw out_of_range("Invalid position or length");
+        }
+
+        ListNode* current = head;
+        ListNode* prev = nullptr;
+
+        for (int i = 0; i < position; i++) {
+            prev = current;
+            current = current->next;
+        }
+
+        for (int i = 0; i < length && current != nullptr; i++) {
+            ListNode* toDelete = current;
+            current = current->next;
+            delete toDelete;
+            size--;
+        }
+
+        if (prev != nullptr) {
+            prev->next = current;
+        } else {
+            head = current;
+        }
+
+        if (current == nullptr) {
+            tail = prev;
+        }
+    }
+
 private:
     ListNode* head;
     ListNode* tail;
@@ -119,9 +156,28 @@ void concatenateTester() {
     list1.display();  // Should output "Hello World"
 }
 
+void removeCharsTester() {
+    LinkedListString list;
+    list.append('H');
+    list.append('e');
+    list.append('l');
+    list.append('l');
+    list.append('o');
+    list.append(' ');
+    list.append('W');
+    list.append('o');
+    list.append('r');
+    list.append('l');
+    list.append('d');
+    list.display();  // Should output "Hello World"
+    list.removeChars(5, 3);
+    list.display();  // Should output "Hello rld"
+}
+
 int main() {
     appendTester();
     characterAtTester();
     concatenateTester();
+    removeCharsTester();
     return 0;
 }
