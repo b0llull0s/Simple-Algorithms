@@ -171,7 +171,7 @@ void removeCharsTester() {
     list.append('d');
     list.display();  // Should output "Hello World"
     list.removeChars(5, 3);
-    list.display();  // Should output "Hello rld"
+    list.display();  // Should output "Hellorld"
 }
 
 int main() {
