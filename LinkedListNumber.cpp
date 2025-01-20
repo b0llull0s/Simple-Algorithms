@@ -47,6 +47,10 @@ public:
         cout << endl;
     }
 
+    int length() const {
+        return size;
+    }
+
     static LinkedListNumber intToList(int value) {
         LinkedListNumber list;
         if (value == 0) {
