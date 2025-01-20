@@ -29,7 +29,7 @@ Because we'll no longer using the null-termination convention expected by the st
 #include <iostream>
 using namespace std;
 
-typedef char* arrayString;
+using arrayString = char*;
 
 char characterAT(arrayString s, int position) {
     return s[position + 1]; // Adjust for size stored at s[0]
