@@ -16,21 +16,23 @@ struct ListNode {
     ListNode* next;
 };
 
+using NodePtr = ListNode*;
+
 class LinkedListNumber {
 public:
     LinkedListNumber() : head(nullptr), tail(nullptr), size(0) {}
-
+    
     ~LinkedListNumber() {
-        ListNode* current = head;
+        NodePtr current = head;
         while (current != nullptr) {
-            ListNode* next = current->next;
+            NodePtr next = current->next;
             delete current;
             current = next;
         }
     }
 
     void append(int digit) {
-        ListNode* newNode = new ListNode{digit, nullptr};
+        NodePtr newNode = new ListNode{digit, nullptr};
         if (tail) {
             tail->next = newNode;
         } else {
@@ -41,7 +43,7 @@ public:
     }
 
     void display() const {
-        ListNode* current = head;
+        NodePtr current = head;
         while (current != nullptr) {
             cout << current->data;
             current = current->next;
@@ -49,7 +51,7 @@ public:
         cout << endl;
     }
 
-    int length() const {  // Constant time O(1) access to the size, since it just returns the tracked size member.
+    int length() const {
         return size;
     }
 
@@ -73,8 +75,8 @@ public:
         LinkedListNumber rev2 = l2.reverse();
         
         LinkedListNumber result;
-        ListNode* p1 = rev1.head;
-        ListNode* p2 = rev2.head;
+        NodePtr p1 = rev1.head;
+        NodePtr p2 = rev2.head;
         int carry = 0;
         
         while (p1 != nullptr || p2 != nullptr || carry != 0) {
@@ -95,15 +97,15 @@ public:
     }
 
 private:
-    ListNode* head;
-    ListNode* tail;
+    NodePtr head;
+    NodePtr tail;
     int size;
 
     LinkedListNumber reverse() const {
         LinkedListNumber reversedList;
-        ListNode* current = head;
+        NodePtr current = head;
         while (current != nullptr) {
-            ListNode* newNode = new ListNode{current->data, reversedList.head};
+            NodePtr newNode = new ListNode{current->data, reversedList.head};
             reversedList.head = newNode;
             if (reversedList.tail == nullptr) {
                 reversedList.tail = newNode;
@@ -114,7 +116,7 @@ private:
     }
 
     void prepend(int digit) {
-        ListNode* newNode = new ListNode{digit, head};
+        NodePtr newNode = new ListNode{digit, head};
         head = newNode;
         if (tail == nullptr) {
             tail = newNode;
