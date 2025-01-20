@@ -65,6 +65,7 @@
 - [**Finding the Mode in a Dynamically Allocated Array**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/finding_the_Mode_in_a_Dynamically_Allocated_Array.cpp)
 - [**Student Sorter With Dynamic Array**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/student_sorter_dynamic.cpp)
 - [**Linked List Strings**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/linked_list_string.cpp)
+- [**Linked List Number**](https://github.com/b0llull0s/Simple-Algorithms/blob/main/LinkedListNumber.cpp)
 # Acknowledgements
 - Some of the code are exercises from the book ["Thinking like a programmer"](https://nostarch.com/thinklikeaprogrammer) by V.Anton Spraul.
 - If you find this interesting buy his book for a deepest cover over the topic.
