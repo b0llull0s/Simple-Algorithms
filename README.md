@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J41UVIX7)
 # Simple-Algorithms
 >Without being able to measure progress, it's difficult to formulate a strategy.
 - Here there are some simple algorithms that may be useful to find analogies with real life situations.
